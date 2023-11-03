@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/assets/Montserrat/static/Montserrat-Medium.ttf) format("truetype");
+  font-weight:300;
+} 
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.navbar{
+  margin-top: 30px;
+}
+
+.nav-link{
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.nav-link:hover{
+  text-decoration-line: underline;
+  text-decoration-color: #8873ef;
+  text-decoration-thickness: 3px;
+  border-radius: 7px;
+ 
+}
+
+.navbar-brand{
+  font-weight: 600;
+}
+
+.divider{
+  border-color: rgb(8, 8, 8, 0.5) !important;
+}
+
+.img-about{
+  width: 450px;
+  margin-right: 0px;
+  position: relative;
+  margin-top: -350px;
+  margin-bottom: 100px;
+}
+
+.mat-divider{
+  border-top-color: rgb(192, 187, 187, 0.5);
+}
+
+.about-text{ 
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 50%;  
+  margin-top: 100px;  
+}
+
+.about-text h2{
+ margin-right: auto;
+}
+
+.button-cv{
+  margin-right: auto;
+}
+
+.button-cv:hover{
+  background-color: #5a3fdd !important;
+}
+
+.icon-cv{
+  margin-top: -10px;
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
+}
+
+.about-service-one{
+  margin-top: 100px;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.about-service-two{
+  margin-top: 100px;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.about-text-service-one{ 
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 50%;   
+  margin-top: 100px;   
+}
+
+
+.about-text-service-one h2{
+ margin-right: auto;
+}
+
+.about-text-service-two{ 
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-left: 190px;
+  width: 50%;   
+  margin-top: 100px;
+}
+
+.about-text-service-two h2{
+  margin-right: auto;
+ }
+
+
+
+.img-about{
+  width: 450px;
+  margin-right: 0px;
+  margin-top: -350px;
+  margin-bottom: 100px;
+}
+
+.img-service-one{
+  width: 300px;
+  margin-left: 150px;
+ 
+}
+.img-service-two{
+  width: 300px;
+  margin-right: 150px;
+  height: 300px;
+  margin-top:30px;
+  margin-left: 30px;
+ 
+}
+
+.arrow{
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.card-project-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+  div .img-about{     
+   margin-top: 50px;
+   margin-right: 150px;
+}
+  .about-text{
+     width: 100%;
+  }
+
+  .services-one, .services-two, .services-three{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+  }
+
+  .about-text-service-one, .about-text-service-two, .services-three{
+     margin: 0 auto; 
+     margin-top: 0 !important; 
+     width: 100%;  
+  }
+
+  div .img-service-one, div .img-service-two{
+     margin: 0 auto;
+  }
+}
+
+@media (max-width: 900px) {
+
+ .about-service{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+ }
+
+ .about-text-service{     
+     width: 100%;
+ }
+}
+
+@media (max-width: 767px) {
+ .img-about{
+     margin-top: 100px;
+     margin-left: 100px;
+     width: 300px;
+ }
+ .about-text{
+    margin-left: 0;   
+ }
+
+}
+
+@media (max-width: 550px) {
+ .img-about, .img-service-one, .img-service-two{
+     display: none;
+ }
+ .about-text-service-two, .about-text-service-one{
+  margin-top: 100px;
+ }
+}
