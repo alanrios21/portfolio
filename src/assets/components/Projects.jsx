@@ -11,7 +11,7 @@ const Projects = () => {
     <Card id='projects' className='animate__animated animate__backInDown card-project-one shadow-lg' style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Clima} />
       <Card.Body>
-        <Card.Title>Apliacion del Clima</Card.Title>
+        <Card.Title>Aplicacion del Clima</Card.Title>
         <Card.Text>
           Hecho con HTML, CSS, Javascript
         </Card.Text>

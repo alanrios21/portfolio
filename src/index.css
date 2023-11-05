@@ -214,7 +214,11 @@ a {
  }
 
 }
-
+@media (max-width: 575px) {
+.navbar-brand, .nav-link{
+  margin-left: 50px !important;
+ }
+}
 @media (max-width: 550px) {
  .img-about, .img-service-one, .img-service-two{
      display: none;
@@ -222,4 +226,6 @@ a {
  .about-text-service-two, .about-text-service-one{
   margin-top: 100px;
  }
+
+
 }

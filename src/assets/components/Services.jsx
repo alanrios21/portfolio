@@ -20,8 +20,8 @@ const Services = () => {
         <img className="img-service-two" src={imgServiceTwo}></img>
   </div>
 <div className="d-flex justify-content-end about-text-service-two">
-        <h2>Desarrollado de funcionalidades</h2>
-        <p>Mediante el uso de librerias y frameworks, desarrollo funcionalidades para que todo funcione correctamente.</p> 
+        <h2>Desarrollo de funcionalidades</h2>
+        <p>Mediante el uso de librerias y frameworks, implemento funcionalidades para que todo funcione correctamente.</p> 
    </div>
 </div>
 <div className="services-three container d-flex animate__animated animate__backInDown" style={{marginTop: '100px', marginBottom: '200px'}}>
