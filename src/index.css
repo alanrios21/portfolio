@@ -164,6 +164,11 @@ a {
   margin-bottom: 100px;
 }
 
+.box-projects{
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 991px) {
   div .img-about{     
    margin-top: 50px;
@@ -215,6 +220,9 @@ a {
 
 }
 @media (max-width: 575px) {
+.box-projects{
+  flex-direction: column;
+}
 .navbar-brand, .nav-link{
   margin-left: 50px !important;
  }
