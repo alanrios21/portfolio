@@ -6,10 +6,8 @@ import NavBarVar from './assets/components/NavBarVar'
 import Projects from './assets/components/Projects'
 import Services from './assets/components/Services'
 
-
 function App() {
   
-
   return (
     <>
       <NavBarVar></NavBarVar>

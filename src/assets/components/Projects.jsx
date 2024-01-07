@@ -29,7 +29,7 @@ const Projects = () => {
         <Card.Text>
           Hecho con HTML, CSS, Javascript, React
         </Card.Text>
-        <Button variant="primary" href="https://www.youtube.com/watch?v=se72iYUt4v8"
+        <Button variant="primary" href="https://www.youtube.com/watch?v=t1HolY-kVMI"
         target="_blank"
         rel="noreferrer">Ver<BsArrowUp className='arrow'></BsArrowUp></Button>
       </Card.Body>

@@ -46,8 +46,6 @@ a {
   border-color: rgb(8, 8, 8, 0.5) !important;
 }
 
-
-
 .mat-divider{
   border-top-color: rgb(192, 187, 187, 0.5);
 }
@@ -119,8 +117,6 @@ a {
 .about-text-service-two h2{
   margin-right: auto;
  }
-
-
 
 .img-about{
   width: 450px;
@@ -246,6 +242,4 @@ a {
  .about-text-service-two, .about-text-service-one{
   margin-top: 100px;
  }
-
-
 }
