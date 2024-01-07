@@ -17,7 +17,7 @@ const Projects = () => {
         <Card.Text>
           Hecho con HTML, CSS, Javascript
         </Card.Text>
-        <Button variant="primary" href="https://roseweather.netlify.app/"
+        <Button variant="primary" className='button-projects' href="https://roseweather.netlify.app/"
         target="_blank"
         rel="noreferrer">Ver<BsArrowUp className='arrow'></BsArrowUp></Button>
       </Card.Body>
@@ -29,7 +29,7 @@ const Projects = () => {
         <Card.Text>
           Hecho con HTML, CSS, Javascript, React
         </Card.Text>
-        <Button variant="primary" href="https://www.youtube.com/watch?v=t1HolY-kVMI"
+        <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=t1HolY-kVMI"
         target="_blank"
         rel="noreferrer">Ver<BsArrowUp className='arrow'></BsArrowUp></Button>
       </Card.Body>

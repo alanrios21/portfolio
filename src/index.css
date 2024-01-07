@@ -114,6 +114,10 @@ a {
   margin-top: 100px;
 }
 
+.button-projects:hover{
+  background-color: #3618ce;
+}
+
 .about-text-service-two h2{
   margin-right: auto;
  }
@@ -242,4 +246,5 @@ a {
  .about-text-service-two, .about-text-service-one{
   margin-top: 100px;
  }
+
 }
