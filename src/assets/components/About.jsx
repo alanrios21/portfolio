@@ -7,7 +7,7 @@ import Divider from '@mui/material/Divider';
     const pdfUrl = "Alan Rios CV.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Alan Rios CV.pdf"; // specify the filename
+    link.download = "CV Alan Ríos - 2024.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
