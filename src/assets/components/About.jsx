@@ -4,7 +4,7 @@ import Divider from '@mui/material/Divider';
 
 
   const onButtonClick = () => {
-    const pdfUrl = "Alan Rios CV.pdf";
+    const pdfUrl = "CV Alan Ríos - 2024.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "CV Alan Ríos - 2024.pdf"; // specify the filename
