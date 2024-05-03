@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Clima from '../../../public/imagenes/Clima.png'
 import {BsArrowUp} from 'react-icons/bs';
 import Divider from '@mui/material/Divider';
-import Music from '../../../public/imagenes/Musicos.png'
+import Ecommerce from '../../../public/imagenes/Ecommerce.png'
 
 
 const Projects = () => {
@@ -23,13 +23,13 @@ const Projects = () => {
       </Card.Body>
     </Card>
     <Card id='projects' className='animate__animated animate__backInDown card-project-one shadow-lg' style={{ width: '18rem' }}>
-      <Card.Img variant="top" style={{height: '220px'}} src={Music} />
+    <Card.Img variant="top" style={{height: '220px'}} src={Ecommerce} />
       <Card.Body>
-        <Card.Title>Aplicacion Musico para Independientes</Card.Title>
+      <Card.Title>Ecommerce ShopSwiftly</Card.Title>
         <Card.Text>
           Hecho con HTML, CSS, Javascript, React
         </Card.Text>
-        <Button variant="primary" className='button-projects' href="https://roundpeople.netlify.app/"
+        <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=t1HolY-kVMI"
         target="_blank"
         rel="noreferrer">Ver<BsArrowUp className='arrow'></BsArrowUp></Button>
       </Card.Body>
