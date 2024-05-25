@@ -1,7 +1,6 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/Linkedin';
 
-
 const Footer = () => {
   return (
     <div className="footer animate__animated animate__backInDown">
