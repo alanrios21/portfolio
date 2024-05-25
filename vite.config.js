@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@mui/icons-material/LinkedIn']
+      external: ['@mui/icons-material/LinkedIn', '@mui/icons-material/GitHub']
     }
   }
 })
