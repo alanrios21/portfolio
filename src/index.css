@@ -176,9 +176,18 @@ a {
   margin-bottom: 100px;
 }
 
-.box-projects{
+.box-projects {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las cards */
+  justify-content: center; /* Centra las cards horizontalmente */
+  padding: 20px; /* Añade padding alrededor del contenedor */
+}
+
+.card-project {
+  flex: 1 1 300px; /* Ajusta el tamaño de las cards, mínimo 300px */
+  max-width: 300px; /* Máximo ancho de las cards */
+  margin: 10px; /* Espacio alrededor de cada card */
 }
 
 @media (max-width: 991px) {
