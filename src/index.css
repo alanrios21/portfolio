@@ -84,6 +84,7 @@ a {
   margin-left: 40px;
 }
 
+
 .about-service-two{
   margin-top: 100px;
   justify-content: space-between;
@@ -101,7 +102,7 @@ a {
 
 
 .about-text-service-one h2{
- margin-right: auto;
+  margin-right: auto;
 }
 
 .about-text-service-two{ 
@@ -120,7 +121,7 @@ a {
 
 .about-text-service-two h2{
   margin-right: auto;
- }
+}
 
 .img-about{
   width: 450px;
@@ -132,9 +133,20 @@ a {
     transition: all 0.2s linear;
     transform: translateY(-5px);
     transform: scale(1.1);
-}
+  }
 }
 
+.img-service-one,
+.img-service-two,
+.img-about {
+  transition: transform 0.5s ease-out !important;
+}
+
+.img-service-one:hover,
+.img-service-two:hover,
+.img-about:hover {
+  transform: scale(1.2) !important; /* Ajusta el valor según tus necesidades */
+}
 .img-service-one{
   width: 300px;
   margin-left: 150px;

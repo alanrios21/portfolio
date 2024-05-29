@@ -12,7 +12,7 @@ import SoftSolutions from '../../../public/imagenes/SoftSolutions.png';
 const Projects = () => {
   return (
     <>
-      <div className='box-projects'>
+      <div id='projects' className='box-projects'>
         <Card className='card-project shadow-lg'>
           <Card.Img variant="top" src={Clima} />
           <Card.Body>

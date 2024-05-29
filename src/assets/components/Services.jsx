@@ -6,35 +6,35 @@ import Divider from '@mui/material/Divider';
 const Services = () => {
   return (
     <>
-<div id='services' className="services-one container d-flex animate__animated animate__backInDown" style={{marginTop: '100px'}}>
-    <div className=" d-flex justify-content-start about-text-service-one">
-            <h2>Interfaz de usuario</h2>
-            <p>A través de herramientas como HTML, CSS y JavaScript, construyo el diseño y la estructura de la web.</p> 
-    </div>  
-    <div className="d-flex justify-content-end ">
-        <img className="img-service-one" src={imgServiceOne}></img>
-    </div> 
-</div>
-<div className="services-two container d-flex animate__animated animate__backInDown" style={{marginTop: '100px'}}>
-   <div className="d-flex justify-content-start ">
-        <img className="img-service-two" src={imgServiceTwo}></img>
-  </div>
-<div className="d-flex justify-content-end about-text-service-two">
-        <h2>Desarrollo de funcionalidades</h2>
-        <p>Mediante el uso de librerias y frameworks, implemento funcionalidades para que todo funcione correctamente.</p> 
-   </div>
-</div>
-<div className="services-three container d-flex animate__animated animate__backInDown" style={{marginTop: '100px', marginBottom: '200px'}}>
-<div className=" d-flex justify-content-start about-text-service-one">
-<h2>Diseño web adaptable</h2>
-    <p>Diseño de la web adaptada en distintas resoluciones de pantallas: escritorio, tablet y mobile.</p> 
-    </div>  
-    <div className="d-flex justify-content-end ">
-        <img className="img-service-one" src={imgServiceThree}></img>
-    </div>
-</div>
-<Divider className='divider'/>
-</>
+      <div id='services' className="services-one container d-flex animate__animated animate__backInDown" style={{marginTop: '100px'}}>
+        <div className=" d-flex justify-content-start about-text-service-one">
+          <h2>Interfaz de usuario</h2>
+          <p>A través de herramientas como HTML, CSS y JavaScript, construyo el diseño y la estructura de la web.</p> 
+        </div>  
+        <div className="d-flex justify-content-end">
+          <img className="img-service-one" src={imgServiceOne} alt="Interfaz de usuario"></img>
+        </div> 
+      </div>
+      <div className="services-two container d-flex animate__animated animate__backInDown" style={{marginTop: '100px'}}>
+        <div className="d-flex justify-content-start">
+          <img className="img-service-two" src={imgServiceTwo} alt="Desarrollo de funcionalidades"></img>
+        </div>
+        <div className="d-flex justify-content-end about-text-service-two">
+          <h2>Desarrollo de funcionalidades</h2>
+          <p>Mediante el uso de librerias y frameworks, implemento funcionalidades para que todo funcione correctamente.</p> 
+        </div>
+      </div>
+      <div className="services-three container d-flex animate__animated animate__backInDown" style={{marginTop: '100px', marginBottom: '200px'}}>
+        <div className="d-flex justify-content-start about-text-service-one">
+          <h2>Diseño web adaptable</h2>
+          <p>Diseño de la web adaptada en distintas resoluciones de pantallas: escritorio, tablet y mobile.</p> 
+        </div>  
+        <div className="d-flex justify-content-end">
+          <img className="img-service-one" src={imgServiceThree} alt="Diseño web adaptable"></img>
+        </div>
+      </div>
+      <Divider className='divider'/>
+    </>
   )
 }
 
