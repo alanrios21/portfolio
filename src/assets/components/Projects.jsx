@@ -50,7 +50,7 @@ const Projects = () => {
             <Card.Text>
               Hecho con HTML, CSS, Javascript, SQL, C#, .NET core
             </Card.Text>
-            <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=v21Mp4D9gaA" target="_blank" rel="noreferrer">Ver<BsArrowUp className='arrow' /></Button>
+            <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=pShcB1XfnKs" target="_blank" rel="noreferrer">Ver<BsArrowUp className='arrow' /></Button>
           </Card.Body>
         </Card>
         <Card className='card-project shadow-lg'>
@@ -60,7 +60,7 @@ const Projects = () => {
             <Card.Text>
               Hecho con HTML, CSS, React, Typescript, Node, Redux, MongoDB y Tailwind
             </Card.Text>
-            <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=TnHEVigvv6U" target="_blank" rel="noreferrer">Ver<BsArrowUp className='arrow' /></Button>
+            <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=LpCY1uHHQd8" target="_blank" rel="noreferrer">Ver<BsArrowUp className='arrow' /></Button>
           </Card.Body>
         </Card>
       </div>
