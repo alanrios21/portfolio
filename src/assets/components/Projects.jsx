@@ -7,7 +7,6 @@ import Ecommerce from '../../../public/imagenes/Ecommerce.png';
 import Musicos from '../../../public/imagenes/Musicos.png';
 import Visiona from '../../../public/imagenes/Backoffice.png';
 import SoftSolutions from '../../../public/imagenes/SoftSolutions.png';
-import Justina from '../../../public/imagenes/Justina.png';
 
 const Projects = () => {
   return (
