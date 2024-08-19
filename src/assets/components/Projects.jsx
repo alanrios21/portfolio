@@ -63,16 +63,7 @@ const Projects = () => {
             <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=LpCY1uHHQd8" target="_blank" rel="noreferrer">Ver<BsArrowUp className='arrow' /></Button>
           </Card.Body>
         </Card>
-        <Card className='card-project shadow-lg'>
-          <Card.Img variant="top" style={{ height: '220px' }} src={Justina} />
-          <Card.Body>
-            <Card.Title>Justina</Card.Title>
-            <Card.Text>
-              Hecho con HTML, CSS, React, Javascript y Tailwind
-            </Card.Text>
-            <Button variant="primary" className='button-projects' href="https://www.youtube.com/watch?v=FVfbtmy1ywc" target="_blank" rel="noreferrer">Ver<BsArrowUp className='arrow' /></Button>
-          </Card.Body>
-        </Card>
+    
       </div>
       <Divider className='divider' />
     </>
